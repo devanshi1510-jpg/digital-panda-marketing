@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book a Call - Digital Panda Marketing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f8fa; color: #232323; }
+    header, section, footer { margin: 0 auto; max-width: 700px; padding: 40px 20px; }
+    header { background: #292D33; color: #fff; text-align: center; border-radius: 0 0 20px 20px; }
+    .logo { font-size: 1.1em; font-weight: bold; margin-bottom: 7px; }
+    h1 { font-size: 2em; margin: 0 0 12px 0; }
+    h2 { font-size: 1.5em; margin-top: 40px; }
+    p { font-size: 1.12em; line-height: 1.7; }
+    .cta { background: #14B8A6; color: #fff; display: inline-block; padding: 18px 35px; margin: 20px 0; font-size: 1.2em; border-radius: 30px; text-decoration: none; font-weight: bold; transition: background 0.25s;}
+    .cta:hover { background: #0fa98b; }
+    .services, .testimonials { margin-top: 32px; }
+    .services ul { list-style: none; padding: 0; }
+    .services li { margin: 12px 0; font-size: 1.13em; padding-left: 20px; position: relative;}
+    .services li:before { content: "✓"; position: absolute; left: 0; color: #14B8A6; }
+    .video-wrapper { margin: 36px 0; text-align: center;}
+    .video-wrapper iframe { border-radius: 8px; border: none; width: 100%; max-width: 600px; height: 337px;}
+    .testimonials blockquote { background: #fff; border-radius:8px; margin: 25px 0; padding: 22px; border-left: 5px solid #14B8A6;}
+    .testimonials strong { color: #05676e; }
+    footer { text-align: center; padding-top:30px;}
+    @media (max-width:700px) { header, section, footer { padding:18px; } }
+  </style>
+</head>
+<body>
+<header>
+  <div class="logo">Digital Panda Marketing</div>
+  <h1>Struggling to Get Leads or Sales for Your Business?</h1>
+  <p>
+    Are you a business owner finding it hard to grow, attract qualified leads, or drive more revenue? <br>
+    Discover the <strong>Panda Growth Formula</strong> — a proven strategy to unlock more sales, more leads, and measurable growth!
+  </p>
+  <a href="#book" class="cta">Book a Free Call</a>
+</header>
+
+<section class="video-wrapper">
+  <h2>Watch: How We Helped Businesses 2X Their Revenue</h2>
+  <iframe src="https://www.youtube.com/embed/C41kvEsNkIQ?start=41" title="Digital Panda Marketing VSL" allowfullscreen></iframe>
+  <a href="#book" class="cta">Book Your Spot Now</a>
+</section>
+
+<section class="services">
+  <h2>What We Offer</h2>
+  <ul>
+    <li>Google Ads and Pay-Per-Click Management</li>
+    <li>Search Engine Advertising to Get You Seen Instantly</li>
+    <li>Social Media Marketing That Converts</li>
+    <li>Lead Generation Campaigns with Real Results</li>
+    <li>Brand Building for Trust & Credibility</li>
+    <li>Revenue Growth by Increasing Online Sales</li>
+  </ul>
+  <a href="#book" class="cta">Start Growing Your Business</a>
+</section>
+
+<section class="testimonials">
+  <h2>What Our US Clients Say</h2>
+  <blockquote>
+    “Digital Panda Marketing revamped our Google Ads and in just 2 months, we saw a 65% increase in qualified leads. Highly recommend their <strong>Panda Growth Formula</strong>!”
+    <br><br>
+    <strong>- Emma Davis, Owner, Texas Dental Works (Austin, TX)</strong>
+  </blockquote>
+  <blockquote>
+    “From Facebook campaigns to landing pages, their strategy brought in double the sales in Q1. Amazing results and service!”
+    <br><br>
+    <strong>- Jason Smith, CEO, NYC Fitness Pro (New York, NY)</strong>
+  </blockquote>
+  <blockquote>
+    “Our brand visibility skyrocketed! We went from almost invisible to a recognized name in local search, all thanks to the Digital Panda team.”
+    <br><br>
+    <strong>- Ava Green, Founder, GreenTech Consulting (San Francisco, CA)</strong>
+  </blockquote>
+  <blockquote>
+    “They handled our paid search and lead gen — results speak for themselves: 3X online sales. Can’t wait for our next campaign.”
+    <br><br>
+    <strong>- Robert Wilson, Owner, Wilson’s Electronics (Chicago, IL)</strong>
+  </blockquote>
+  <blockquote>
+    “Before working with Digital Panda, our lead pipeline was dry. Now? Fully booked for months. The Panda Growth Formula works!”
+    <br><br>
+    <strong>- Olivia Turner, Partner, Fresh Start Law (Miami, FL)</strong>
+  </blockquote>
+  <a href="#book" class="cta">See How We Can Help You</a>
+</section>
+
+<section id="book" style="text-align:center;">
+  <h2>Book Your Free 1:1 Strategy Call</h2>
+  <p>Let’s discuss your business goals and how the Panda Growth Formula can accelerate your results. Click below to schedule a time that works best:</p>
+  <!-- You can swap this Calendly link with your preferred booking tool -->
+  <a href="https://calendly.com/" class="cta" target="_blank">Book a Call</a>
+</section>
+
+<footer>
+  <p>&copy; 2025 Digital Panda Marketing. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
